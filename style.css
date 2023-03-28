@@ -126,4 +126,6 @@ h3{
 .producto__precio,
 .producto__nombre{
     font-family: var(--fuentePrincipal);
+    margin: 1rem 0;
+    text-align: center;
 }
