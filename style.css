@@ -98,14 +98,17 @@ h3{
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    c
 }
 @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /** Productos **/
 .producto{
-
+    background-color: var(--primarioOscuro);
 }
 .producto__imagen{
 
