@@ -1,7 +1,7 @@
 :root {
     --primario: #9c27b0;
     --primarioOscuro: #89119D;
-    --secundario: #FFCE00;
+    --secundario: #ffcc00;
     --secundarioOsucro: rgb(233,287,2);
     --blanco: #FFF;
     --negro: #000; 
@@ -59,7 +59,7 @@ h3{
     margin: 3rem 0;
 }
 
-/** Navegacion **/
+/** footer **/
 .footer{
     background-color: var(--primarioOscuro);
     padding: 1rem 0;
@@ -93,4 +93,18 @@ h3{
 .navegacion__enlace--activo,
 .navegacion__enlace:hover{
     color: var(--secundario);
+}
+
+/** Productos **/
+.producto{
+
+}
+.producto__imagen{
+
+}
+.producto__informacion{
+
+}
+.producto__nombre{
+    
 }
