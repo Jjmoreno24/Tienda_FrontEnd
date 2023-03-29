@@ -139,7 +139,17 @@ h3{
     
 
 }
-.grafico grafico--node{
-    grid-row: 5 / 6;
-    grid-column: 2 / 4;
+@media (min-width: 768px) {
+    .grafico grafico--node{
+        grid-row: 5 / 6;
+        grid-column: 2 / 4;
+    }    
 }
+
+
+
+
+
+
+
+
