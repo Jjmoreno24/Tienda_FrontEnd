@@ -191,7 +191,7 @@ h3{
 }
 
 /** Pagina del Producto **/
-@media (min-width: ) {
+@media (min-width: 768px) {
     .camisa {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
